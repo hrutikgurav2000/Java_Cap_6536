@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script>
+	function verify(){
+	
+	var n, i, flag = true;
+        
+            n = Number(document.getElementById("num1").value);
+            for(i = 2; i <= n - 1; i++)
+                if (n % i == 0) {
+                    flag = false;
+                    break;
+                }
+                  
+         
+            if (flag == true)
+                alert(n + " is prime");
+            else
+                alert(n + " is not prime");
+        }
+	
+
+</script>
+</head>
+<body>
+	<center>
+	<div>
+	Enter number : <input type="text" id="num1" required> </br>
+	
+	<input type = "submit" action="click" onclick="verify()"  />
+	<p id="ans"></p>
+
+	</div>
+	</center>
+</body>
+</html>

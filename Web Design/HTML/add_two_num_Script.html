@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script>
+	function verify(){
+	var num1 = Number(document.getElementById("num1").value);
+	var num2 = Number(document.getElementById("num2").value);
+	if(num1==0 || num2==0){
+		alert("cant add");
+	}else{
+		//alert(num1+num2 + " is addition");
+		var num3 = num1 + num2;
+		document.getElementById("ans").innerHTML="The sum of "+num1+" and "+num2+" is "+num3;
+	}
+}
+</script>
+</head>
+<body>
+	<center>
+	<div>
+	Enter first number : <input type="text" id="num1" required> </br>
+	Enter second number : <input type="text" id="num2" required> </br>
+	<input type = "submit" action="click" onclick="verify()"  />
+	<p id="ans"></p>
+
+	</div>
+	</center>
+</body>
+</html>

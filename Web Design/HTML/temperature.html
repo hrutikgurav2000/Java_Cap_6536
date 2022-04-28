@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script>
+	function verify(){
+	
+	var value = Number(document.getElementById("num1").value);
+	var toCel = document.getElementById('toCel');
+	var toFar = document.getElementById('toFar');
+	var ans,ans1;
+	if(toCel.checked == true){
+		ans = (value - 32) * .5556 ;
+		console.log(ans);
+		document.write(value + " farenheit to celsius is " + ans);
+	}
+	if(toFar.checked == true){
+		ans1 = (value * 9/5 ) + 32 ;
+		console.log(ans);
+		document.write(value + " Celsius to farenheit " + ans1);
+	}		   
+		
+		
+	
+	}
+</script>
+</head>
+<body>
+	<form>
+	<center>
+	<div>
+	Enter temperature value : <input type="text" id="num1" required> </br>
+	 Options:
+    <input type="radio" name="button" id="toCel">farenheit to celsius </br>
+    <input type="radio" name="button" id="toFar">Celsius to farenheit </br>
+	<input type = "submit" action="click" onclick="verify()"  />
+	<p id="ans"></p>
+
+	</div>
+	</center>
+	</form>
+</body>
+</html>

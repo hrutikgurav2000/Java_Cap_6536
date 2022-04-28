@@ -1,0 +1,18 @@
+//var checkNum = 2;
+
+
+
+for (let checkNum = 2; checkNum < 51 ; checkNum ++){
+
+for (let i = 2 ; i < checkNum ; i++ ){ 
+		var flag = 0;
+		if(checkNum  % i == 0){   
+		flag = 1;
+		break;
+	}
+}
+if (flag == 0){
+	console.log(checkNum);
+	}
+	
+}

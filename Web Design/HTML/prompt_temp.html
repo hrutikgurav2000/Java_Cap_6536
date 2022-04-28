@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script>
+	function verify(){
+	
+	var value = Number(document.getElementById("num1").value);
+	var ans;
+	
+	var a = prompt("1 . farenheit to celsius 2. Celsius to farenheit " );  
+
+	//console.log(a);
+	
+	if(a == 1 ){
+		ans = (value - 32) * .5556 ;
+		console.log(ans);
+		document.write(value + " farenheit to celsius is " + ans);
+	}
+		
+		
+	if(a == 2 ){
+		ans1 = (value * 9/5 ) + 32 ;
+		console.log(ans);
+		document.write(value + " Celsius to farenheit " + ans1);
+	}
+	
+	}
+</script>
+</head>
+<body>
+	<form>
+	
+	<div>
+	Enter temperature value : <input type="text" id="num1" required> </br>
+	
+	<input type = "submit" action="click" onclick="verify()"  />
+	<p id="ans"></p>
+
+	</div>
+	
+	</form>
+</body>
+</html>

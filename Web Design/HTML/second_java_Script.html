@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script>
+	function verify(){
+	var num = Number(document.getElementById("myid").value);
+	
+	if(num>=18){
+		alert("can vote");
+	}else{
+		alert("can't vote");
+	}
+}
+</script>
+</head>
+<body>
+
+	<div>
+	Enter name : <input type="text" id="myid" required>
+	<input type = "submit" onclick="verify()"  />
+	</div>
+	
+</body>
+</html>

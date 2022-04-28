@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script>
+	function verify(){
+	var arr = [];
+	var j;
+    lowerNumber = Number(document.getElementById("num1").value);
+	higherNumber = Number(document.getElementById("num2").value);
+			   
+		
+		for (var i = lowerNumber; i <= higherNumber; i++) {
+			var flag = 0;
+            
+			//console.log("check");
+            for(j = 2; j < i; j++){
+                if (i % j == 0) {
+                    flag = 1;
+                    break;
+                }
+			}
+				if (flag == 0){
+				//console.log(i); 
+				arr.push(i);
+				}				
+			}
+			
+			//document.write(arr);
+			for(let i = 0; i < arr.length; i++){
+				console.log(arr[i]);
+				document.write(arr[i] + " ");
+			}
+	
+	}
+</script>
+</head>
+<body>
+	<center>
+	<div>
+	Enter starting number : <input type="text" id="num1" required> </br>
+	Enter end number : <input type="text" id="num2" required> </br>
+	<input type = "submit" action="click" onclick="verify()"  />
+	<p id="ans"></p>
+
+	</div>
+	</center>
+</body>
+</html>

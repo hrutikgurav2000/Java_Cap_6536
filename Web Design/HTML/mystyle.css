@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+p {
+	Text-align : left /*, right, center, justify */;
+	Text-transform : uppercase/*lowercase , capitalize*/;
+	Text-indent : /*2em or*/ 20 px;
+	Text-decoration : underline , over line, line-through; 
+	Word-spacing : Normal or length;	
+}
