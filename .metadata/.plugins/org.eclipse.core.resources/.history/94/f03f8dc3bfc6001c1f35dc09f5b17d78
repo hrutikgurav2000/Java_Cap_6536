@@ -1,0 +1,9 @@
+package searching.com;
+
+public class IntegerSearch {
+
+public static void main(String args[]) {
+	
+	
+}
+}

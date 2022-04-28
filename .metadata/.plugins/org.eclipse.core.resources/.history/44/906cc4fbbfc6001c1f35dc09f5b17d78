@@ -1,0 +1,21 @@
+package searching.com;
+
+public class IntegerSearch {
+
+public static void main(String args[]) {
+	
+	int arr[] = {11,33,22,44,77,88,99,55,66,110};
+	
+	int search = 44;
+	
+	for(int a: arr) {
+		
+		if(a == search) {
+			System.out.println("Found");
+		}else {
+			System.out.println("Not Found");
+		}
+	}
+	
+	}
+}

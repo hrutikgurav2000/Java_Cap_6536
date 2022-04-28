@@ -1,0 +1,13 @@
+package com.example.demo.entity;
+
+public class MasterTable {
+
+	private long custID;
+	
+	private String custEmail;
+	
+	private Customer customer;
+	
+	
+	
+}

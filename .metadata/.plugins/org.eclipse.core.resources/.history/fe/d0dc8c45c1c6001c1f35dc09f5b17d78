@@ -1,0 +1,14 @@
+package searching.com;
+
+public class LinearSearchString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {11,33,22,44,77,88,99,55,66,110,44};
+		int search = 44;
+		IntegerSearch obj = new IntegerSearch();
+		obj.searhFun(arr, search);
+		}
+	}
+
+}

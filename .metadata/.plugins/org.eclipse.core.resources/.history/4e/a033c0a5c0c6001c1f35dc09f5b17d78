@@ -1,0 +1,32 @@
+package searching.com;
+// linear search
+public class IntegerSearch {
+
+	
+	public void searhFun(int a[], int search) {
+		int flag = 0 ;
+		for(int a: arr) {
+			
+			if(a == search) {
+				flag = 1 ;
+				break;
+			}else {
+				flag = 0;
+			}
+		}
+		
+		if(flag == 1) {
+			System.out.println("found");
+		}else {
+			System.out.println("not found");
+		}
+		
+		
+	}
+public static void main(String args[]) {
+	
+	int arr[] = {11,33,22,44,77,88,99,55,66,110};
+	
+	int search = 23;
+	}
+}

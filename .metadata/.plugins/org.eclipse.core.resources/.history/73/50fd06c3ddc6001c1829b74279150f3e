@@ -1,0 +1,21 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import com.example.demo.entity.Customer;
+
+public interface CustomerService {
+
+
+	Customer savecust(Customer cust);
+
+	List<Customer> fetchCustomer();
+
+	Customer fetchCustomerById(int custid);
+
+	Customer updateCustomer(int custid,Customer customer);
+
+	void deleteCustomerById(int custid);
+
+		
+}

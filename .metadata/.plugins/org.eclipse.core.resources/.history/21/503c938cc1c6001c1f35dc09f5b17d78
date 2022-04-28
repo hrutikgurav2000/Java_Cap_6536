@@ -1,0 +1,23 @@
+package searching.com;
+
+public class LinearSearchString {
+
+	public void searhFun(String arr[], String search) {
+		
+		int flag = 0;
+		
+		for(int i = 0; i < arr.length; < i++ ) {
+			
+		}
+	
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String arr[] = {"11","33","22","44","77","88","99","55","66","110","44"};
+		String search = "44";
+		LinearSearchString obj = new LinearSearchString();
+		obj.searhFun(arr, search);
+		}
+	}
+
+
