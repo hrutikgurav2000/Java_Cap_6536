@@ -1,0 +1,7 @@
+package com.hrutik.calc;
+
+import javax.servlet.http.HttpServlet;
+
+public class SquareNumber extends HttpServlet{
+
+}

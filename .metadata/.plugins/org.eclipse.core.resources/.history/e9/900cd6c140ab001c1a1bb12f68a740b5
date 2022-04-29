@@ -1,0 +1,7 @@
+package autowire.without.xml;
+
+@component("class_with_annotaion")
+public class ClassWithAnnotaion {
+
+	
+}

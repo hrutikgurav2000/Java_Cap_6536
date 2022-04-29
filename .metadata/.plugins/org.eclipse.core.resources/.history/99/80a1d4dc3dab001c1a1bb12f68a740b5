@@ -1,0 +1,5 @@
+package annotation.with.object;
+
+public class Heart {
+
+}

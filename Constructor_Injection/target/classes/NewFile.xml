@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    
+    <bean id="stob" class="co.edu.spring1.Student">  <!--will create diff object -->
+   <constructor-arg value="Hrutik" type="String"></constructor-arg>
+   </bean>
+    <!-- <bean id="stob" class="com.edubridge.springboot1.Student" > </bean>
+   will create same object -->
+    
+</beans>

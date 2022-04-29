@@ -1,0 +1,13 @@
+package com.hrutik.calc;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class SquareNumber extends HttpServlet{
+	public void doGet(HttpServletRequest req,HttpServletResponse res ) throws IOException {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package annotation.with.setter;
+
+public class Heart {
+
+}

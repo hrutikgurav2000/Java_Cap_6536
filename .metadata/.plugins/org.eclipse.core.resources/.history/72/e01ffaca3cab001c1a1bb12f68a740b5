@@ -1,0 +1,16 @@
+package annotation.with.setter;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+public class Human {
+	@Autowired
+	
+
+	public void humnaFunction() {
+		
+	//
+		System.out.println("Human function calling heart");
+		heart.heart_func();
+	}
+}

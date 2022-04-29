@@ -1,0 +1,17 @@
+package autowire.with.annocation;
+
+
+
+public class Human {
+	Heart heart;
+	
+	
+	public void humnaFunction() {
+		
+	//
+		System.out.println("Human function calling heart");
+		heart.heart_func();
+	}
+	
+	
+}

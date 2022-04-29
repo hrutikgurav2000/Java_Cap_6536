@@ -1,0 +1,5 @@
+package autowire.without.xml;
+
+public class ClassWithAnnotaion {
+
+}

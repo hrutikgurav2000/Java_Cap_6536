@@ -1,0 +1,21 @@
+package annotation.with.setter;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import autowire.with.annocation.Heart;
+
+public class Human {
+	@Autowired
+	public Human(Heart heart) {
+		super();
+		this.heart = heart;
+	}
+
+
+	public void humnaFunction() {
+		
+	//
+		System.out.println("Human function calling heart");
+		heart.heart_func();
+	}
+}

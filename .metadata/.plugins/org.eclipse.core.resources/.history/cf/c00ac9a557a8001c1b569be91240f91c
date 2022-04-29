@@ -1,0 +1,15 @@
+package com.capegemini.practice;
+
+import java.util.Scanner;
+
+public class BusExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		// u will have login to validate user n login
+		System.out.println("login successfull");
+		
+	}
+
+}

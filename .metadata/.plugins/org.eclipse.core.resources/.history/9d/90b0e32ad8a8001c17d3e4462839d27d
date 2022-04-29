@@ -1,0 +1,12 @@
+package com.hrutik.calc;
+
+import javax.servlet.http.HttpServlet;
+
+public class AddNumberServlet extends HttpServlet {
+
+	public void service() {
+		
+		
+	}
+
+}

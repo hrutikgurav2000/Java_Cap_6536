@@ -1,0 +1,12 @@
+package com.capegemini.practice;
+
+import java.util.Scanner;
+
+public class BusExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(system.in);
+	}
+
+}

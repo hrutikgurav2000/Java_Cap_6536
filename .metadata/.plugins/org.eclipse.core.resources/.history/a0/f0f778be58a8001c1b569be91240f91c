@@ -1,0 +1,27 @@
+package com.capegemini.practice;
+
+import java.util.Scanner;
+
+public class BusExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		// u will have login to validate user n login
+		System.out.println("login successfull");
+		System.out.println("Please select option from below:");
+		System.out.println("1. you want to coninute as 'Bus admin' ");
+		System.out.println("2. you want to coninute as 'Normal passanger' ");
+		System.out.println("3. Exit");
+		System.out.println("Please enter your choice:");
+		int ch = sc.nextInt();
+			switch(ch) {
+			case 1: System.out.println("Now you are bus admin");
+				 break;
+				
+			}
+		
+		System.out.println("Exited");
+	}
+
+}
